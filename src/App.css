@@ -1,0 +1,48 @@
+.n-container {
+  @apply max-w-[1280px] m-auto w-[90%];
+}
+
+.blue-linear-bg {
+  @apply bg-gradient-to-r from-[#0f51e0] to-[#6450fd] dark:from-[#4C67D7] dark:to-[#638FD7];
+}
+
+.linear-1-bg {
+  @apply bg-gradient-to-t from-[#5E50FB] to-[#1451E2]
+}
+.linear-2-bg {
+  @apply bg-gradient-to-t from-[#572AE6] to-[#0F51E0]
+}
+.linear-3-bg {
+  @apply bg-gradient-to-t from-[#6450FD] to-[#0F51E0]
+}
+.linear-4-bg {
+  @apply bg-gradient-to-t from-[#0F51E0] to-[#6450FD]
+}
+
+.orange-linear-bg {
+  background: linear-gradient(269.37deg, #E279BD -1.07%, #FFBE00 106.75%);
+}
+.dark_blue-linear-bg {
+  background: linear-gradient(265.68deg, #5D2D91 0%, #D75227 100%);
+}
+
+.searchInput {
+  @apply bg-[url('./assets/images/search.png')] dark:bg-[url('./assets/images/dark_search.png')];
+  background-repeat:no-repeat;
+  background-size: 40px;
+  background-position: 4px 4px;
+}
+
+.primaryText {
+  @apply text-[#1D2636] dark:text-white;
+}
+.secondaryText {
+  @apply text-[#838C9C] dark:text-[#BEC4CE]
+}
+
+.homeBg {
+  background-image: url('./assets/images/homeBg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
